@@ -1,0 +1,28 @@
+@media (max-width:1700px){
+    .getBook{
+       h3{
+           font-size: 21px;
+       }
+    }
+}
+@media (max-width:1200px){
+    .getBook{
+        padding-bottom: 150px;
+    }
+}
+@media (max-width:992px){
+    .getBook{
+        h3{
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width:576px){
+    .getBook{
+        img{
+            width: 100%;
+            
+        }
+    }
+}
+

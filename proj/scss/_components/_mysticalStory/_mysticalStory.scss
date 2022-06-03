@@ -1,0 +1,14 @@
+.mysticalStory{
+    background-image: url('../images/bg_2.png');
+    background-size: cover;
+    padding: 90px 0;
+    .mysticalStoryWrapper{
+        background-image: url('../images/heart_1.png');
+        background-size: 100% 100% ;
+    }
+    .text{
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        color: #2C2C2C;
+    }
+}

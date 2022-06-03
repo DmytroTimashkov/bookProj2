@@ -1,0 +1,42 @@
+.soul{
+    background-color: #DCD5CD;
+    padding: 90px 0 45px;
+    h2{
+        color: #2B8D52;
+    }
+    p{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 24px;
+    }
+}
+.brush5{
+    margin-bottom: -50px;
+    img{
+        width: 100%;
+    }
+}
+.brush4{
+    margin-bottom: -50px;
+    img{
+        width: 100%;
+    }
+}
+@media(max-width:1700px) {
+    .soul{
+        p{
+            font-size: 21px;
+        }
+    }
+
+}
+@media(max-width:992px) {
+    .brush4 , .brush5{
+        margin-bottom: -20px;
+    }
+    .soul{
+        p{
+            font-size: 18px;
+        }
+    }
+
+}

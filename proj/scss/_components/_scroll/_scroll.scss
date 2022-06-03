@@ -1,0 +1,28 @@
+.scroll{
+    background-color: #EDE7DF;
+    padding: 60px 0;
+    .scrollWrapper{
+        background-image: url('../images/scroll.png');
+        background-size: 100% 100% ;
+        padding: 290px 30px;
+        font-size: 36px;
+        font-family: 'Arsenal', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        color: #49341D;
+    
+    }
+    h2{
+        color: #2B8D52;
+    }
+    h3{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 24px;
+    }
+}
+.brush3{
+    margin-top: -50px;
+    img{
+        width: 100%;
+    }
+}

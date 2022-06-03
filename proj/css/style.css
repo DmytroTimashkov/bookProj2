@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+h2 {
+  font-family: "Arsenal", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: "Arsenal", sans-serif;
+  font-weight: bold;
+  font-size: 66px;
+}
+
+.btn-custom {
+  width: 100%;
+  padding: 32px 0;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  color: white;
+  box-shadow: 0px 20px 20px -10px rgba(255, 138, 0, 0.3);
+  background: linear-gradient(90deg, #B64100, #FF6B00);
+  border-radius: 10px;
+  border: none;
+}
+
+@media (max-width: 1700px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+.getBook {
+  background-image: url("../images/bg_1.png");
+  background-size: cover;
+  padding: 54px 0;
+}
+.getBook h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+@media (max-width: 1700px) {
+  .getBook h3 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 1200px) {
+  .getBook {
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 992px) {
+  .getBook h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .getBook img {
+    width: 100%;
+  }
+}
+.personData {
+  background-color: #EDE7DF;
+}
+.personData .absolute1 {
+  position: absolute;
+  width: 100%;
+  top: -128px;
+  left: 0;
+}
+.personData .absolute1 img {
+  width: 100%;
+  height: 178px;
+}
+.personData h2 {
+  color: #2B8D52;
+}
+.personData h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+.personData .dataInputs {
+  padding: 32px 70px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+  color: #2C2C2C;
+  border-width: 0;
+}
+.personData .dataInputs::-moz-placeholder {
+  color: #2C2C2C;
+}
+.personData .dataInputs::-webkit-input-placeholder {
+  color: #2C2C2C;
+}
+.personData .check {
+  width: 20px;
+  height: 20px;
+}
+.personData label {
+  font-size: 14px;
+  color: #2C2C2C;
+}
+.personData label a {
+  text-decoration: underline;
+  color: #2C2C2C;
+}
+
+.brush1 {
+  margin-top: -120px;
+  position: relative;
+  z-index: 10;
+}
+.brush1 img {
+  width: 100%;
+}
+
+.brush2 {
+  margin-bottom: -50px;
+}
+.brush2 img {
+  width: 100%;
+}
+
+@media (max-width: 1700px) {
+  .personData h3 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 992px) {
+  .personData {
+    padding-bottom: 50px;
+  }
+  .personData h3 {
+    font-size: 18px;
+  }
+
+  .brush2 {
+    margin-bottom: -15px;
+  }
+}
+.mysticalStory {
+  background-image: url("../images/bg_2.png");
+  background-size: cover;
+  padding: 90px 0;
+}
+.mysticalStory .mysticalStoryWrapper {
+  background-image: url("../images/heart_1.png");
+  background-size: 100% 100%;
+}
+.mysticalStory .text {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: #2C2C2C;
+}
+
+@media (max-width: 992px) {
+  .mysticalStory {
+    padding-top: 45px;
+  }
+  .mysticalStory .mysticalStoryWrapper {
+    background-image: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0 15px;
+  }
+  .mysticalStory .text {
+    font-size: 17px;
+  }
+}
+.scroll {
+  background-color: #EDE7DF;
+  padding: 60px 0;
+}
+.scroll .scrollWrapper {
+  background-image: url("../images/scroll.png");
+  background-size: 100% 100%;
+  padding: 290px 30px;
+  font-size: 36px;
+  font-family: "Arsenal", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #49341D;
+}
+.scroll h2 {
+  color: #2B8D52;
+}
+.scroll h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+}
+
+.brush3 {
+  margin-top: -50px;
+}
+.brush3 img {
+  width: 100%;
+}
+
+@media (max-width: 1700px) {
+  .scroll h3 {
+    font-size: 21px;
+  }
+  .scroll .scrollWrapper {
+    font-size: 27px;
+  }
+}
+@media (max-width: 992px) {
+  .scroll .scrollWrapper {
+    padding: 180px 30px;
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .scroll .scrollWrapper {
+    padding: 150px 30px;
+    font-size: 21px;
+  }
+  .scroll h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 578px) {
+  .scroll .scrollWrapper {
+    padding: 130px 30px;
+  }
+}
+.soul {
+  background-color: #DCD5CD;
+  padding: 90px 0 45px;
+}
+.soul h2 {
+  color: #2B8D52;
+}
+.soul p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+}
+
+.brush5 {
+  margin-bottom: -50px;
+}
+.brush5 img {
+  width: 100%;
+}
+
+.brush4 {
+  margin-bottom: -50px;
+}
+.brush4 img {
+  width: 100%;
+}
+
+@media (max-width: 1700px) {
+  .soul p {
+    font-size: 21px;
+  }
+}
+@media (max-width: 992px) {
+  .brush4, .brush5 {
+    margin-bottom: -20px;
+  }
+
+  .soul p {
+    font-size: 18px;
+  }
+}
+.review {
+  background-color: #DBD5CD;
+  padding: 30px 0 90px;
+}
+.review .custom-round {
+  border-radius: 10px;
+}
+.review h2 {
+  color: #2B8D52;
+  margin-bottom: 50px;
+}
+.review .soulWrapper .soulText {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 26px;
+  color: #1C003F;
+  font-style: italic;
+}
+.review .soulWrapper .soulText .name {
+  color: #2B8D52;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+.review .btn-before {
+  background: linear-gradient(90deg, #B64100, #FF6B00);
+  box-shadow: 0px 20px 20px -10px rgba(255, 138, 0, 0.3);
+  width: 80px;
+  height: 80px;
+  border: none;
+}
+.review .btn-after {
+  background: linear-gradient(90deg, #FF6B00, #B64100);
+  box-shadow: 0px 20px 20px -10px rgba(255, 138, 0, 0.3);
+  width: 80px;
+  height: 80px;
+  border: none;
+}
+
+@media (max-width: 1700px) {
+  .review .soulWrapper .soulText {
+    font-size: 23px;
+  }
+  .review .soulWrapper .soulText .name {
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px) {
+  .review .soulWrapper .soulText {
+    font-size: 20px;
+  }
+  .review .soulWrapper .soulText .name {
+    font-size: 16px;
+  }
+}
+.answer {
+  background-image: url("../images/bg_3.png");
+  background-size: cover;
+  padding: 90px 0;
+}
+.answer .heart {
+  background-image: url("../images/heart_2.png");
+  background-size: 100% 100%;
+  height: 160px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: Medium;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.brush6 {
+  margin-top: -50px;
+}
+.brush6 img {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .answer .heart {
+    height: 200px;
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
